@@ -1,0 +1,246 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    background-color: #f2f2f2;
+}
+
+/*Navber Start*/
+.top{
+    display: flex;
+    padding-top: 10px;
+    background-color: #517873;
+    }
+    
+    .name{
+    text-align: center;
+    background-color:#517873;
+    color: white;
+    width: max-content;
+    margin: 0 auto;
+    }
+
+    .name1{
+        color: rgb(221, 255, 71);  
+    }
+    
+    .navbar{
+    background-color:#002147;
+    margin-bottom: 0%;
+    border-top: 2px solid rgba(142, 142, 142, .5);
+    }
+    
+    .nav-item .nav-link{
+    color: rgb(109, 203, 137);
+    }
+    
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #c5e21f;
+}
+
+    .nav-item .nav-link:hover{
+        background-color: rgba(255,255,255, .5);
+        display: inline-block;
+        width: auto;
+        }
+
+/*Navber End */
+
+
+
+/*Our Member */
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.team-h1{
+    text-align: center;
+
+}
+
+.profile-card {
+    background-color: rgb(102, 164, 179);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    transition: transform 0.9s;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+h4{
+    color: #e6ea03;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    margin: 0 8px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-card {
+        width: 100%;
+    }
+}
+
+/*team End*/
+
+
+/*About Sectiom*/
+.image-card-component {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 2px rgb(0 0 0 / 10%);
+    transition: all 0.5s ease;
+    .image {
+    width: 300px;
+    background: url('gallery/BAUST.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px 0 0 8px;
+    }
+
+    
+    .content {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex: 1;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+    .cta {
+        margin-left: auto;
+        margin-right: 20px;
+        min-width: 120px;
+        background: #00897b;
+        padding: 10px;
+        text-align: center;
+        border-radius: 3px;
+        color: #FFF;
+        text-decoration: none;
+        font-weight: 700;
+        transition: all 0.5s ease;
+        &:hover {
+        background-color: #00695c;
+        box-shadow: 0px 0px 6px 0px #4db6ac;
+        }
+    }
+
+ 
+    
+    .content-text {
+        margin-right: 60px;
+    }
+    
+    h4 {
+        margin: 0 0 15px;
+        font-size: 30px;
+        line-height: 34px;
+        font-weight: 700;
+        color: #111;
+        transition: all 0.5s ease;
+    }
+    
+    p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgb(17 17 17 / 84%);
+        transition: all 0.5s ease;
+    }
+    }
+    }
+    
+    @media screen and (max-width: 991px) {
+    .image-card-component {
+    flex-direction: column;
+    margin: 0 16px;
+    
+    .image {
+        height: 240px;
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+    
+    .content {
+        flex-direction: column;
+    
+        .content-text {
+    margin: auto;
+    text-align: center;
+    }
+    
+        .cta {
+        margin: 25px auto 0;
+        width: 60%;
+        }
+    
+        h4 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        }
+    }
+    }
+    }
+
+
+
+
+
+
+
+/*About Company End*/
+
+
+     /*footer */
+    .footer {
+        padding: 10px 0;
+        background-color: #517873;
+        color: white;
+    }
+    
+    .footer .copyright {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 20px;
+        color: #ffffff;
+        margin-bottom: 0;
+    }
